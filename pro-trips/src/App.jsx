@@ -1,8 +1,8 @@
 import './App.css'
 import Home from './components/Home'
-import About from './components/About'
 import Register from './components/Register'
 import {Link, Routes, Route} from 'react-router-dom'
+import Contact from './components/Contact'
 
 function App() {
   return(
@@ -19,7 +19,7 @@ function App() {
 
     <Routes>
       <Route path='/' element={<Home/>} />
-      <Route path='/contact' element={<About/>} />
+      <Route path='/contact' element={<Contact/>} />
       <Route path='/registration-form' element={<Register/>} />
 
     </Routes>

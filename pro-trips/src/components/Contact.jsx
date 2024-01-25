@@ -1,8 +1,8 @@
-function About () {
+function Contact () {
     return(
         <>
         <p>Contact</p>
         </>
     )
 }
-export default About
+export default Contact
