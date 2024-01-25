@@ -1,0 +1,29 @@
+nav {
+  display: flex;
+  justify-content: space-between;
+  background-color: black;
+  padding: 20px;
+}
+
+.ab-co {
+  margin-top: 10px;
+}
+
+.contact, .about {
+  font-size: 25px;
+  margin: 12px;
+  color: white;
+  text-decoration: none;
+}
+
+img {
+  height: 40px;
+  width: 160px;
+}
+
+p {
+  display: flex;
+  justify-content: center;
+  font-size: 30px;
+  font-weight: bold;
+}
